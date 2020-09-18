@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    margin-top: 300px;
+    background: #4d4e53;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin: 2px;
+    border-radius: 30px;
+}
+
+h1{
+    color: whitesmoke;
+    cursor: pointer;
+}
