@@ -13,7 +13,13 @@ body{
     border-radius: 30px;
 }
 
-h1{
-    color: whitesmoke;
+button{
+    color: #000;
     cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+
 }

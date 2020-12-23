@@ -2,7 +2,7 @@ let body, num, array, width, context, logo, myElements, analyzer, src, height;
 
 body = document.querySelector('body');
 
-num = 50;
+num = 100;
 
 array = new Uint8Array(num*2);
 
@@ -12,12 +12,12 @@ window.onclick = function(){
 
     if(context) return;
 
-    body.querySelector('h1').remove();
+    body.querySelector('button').remove();
 
     for(let i = 0 ; i < num ; i++){
         logo = document.createElement('div');
         logo.className = 'logo';
-        logo.style.background = 'red';
+        logo.style.background = 'blue';
         logo.style.minWidth = width+'px';
         body.appendChild(logo);
     }
